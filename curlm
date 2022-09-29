@@ -1,0 +1,7 @@
+#!/bin/bash
+
+curl "$1" \
+  -H 'cookie: ' \
+  -H 'user-agent: ' \
+  --compressed \
+   -c /home/mr/mam/mam_cookies.cookies -b /home/mr/mam/mam_cookies.cookies -sS
